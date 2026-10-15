@@ -1,0 +1,195 @@
+==============================================================================
+OS & System Files
+==============================================================================
+
+macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs.syntax.xml
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+Linux
+
+~
+.fuse_hidden
+.directory
+.trash-*
+
+==============================================================================
+Environment & Secret Files (CRITICAL - NEVER COMMIT SECRETS)
+==============================================================================
+
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+.env.production.local
+.env..local
+*.pem
+*.key
+*.crt
+*.pfx
+*.keystore
+*.jks
+
+==============================================================================
+IDEs & Code Editors
+==============================================================================
+
+IntelliJ IDEA / WebStorm / PhpStorm
+
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+Visual Studio Code
+
+.vscode/
+*.code-workspace
+
+Eclipse
+
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders/
+.project
+.classpath
+.factorypath
+
+NetBeans
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbproject/genfiles.properties
+/nbproject/project.properties
+/nbproject/xml_checksum.xml
+
+Sublimetext / Atom
+
+*.sublime-project
+*.sublime-workspace
+.atom/
+
+==============================================================================
+Backend: Java & Spring Boot
+==============================================================================
+
+Compiled Class Files
+
+*.class
+
+Log Files
+
+*.log
+logs/
+.log.
+
+Maven Target & Dependencies
+
+target/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+Gradle Build & Cache
+
+.gradle/
+build/
+
+Spring Boot Hot Swap / DevTools
+
+.sts4-cache/
+
+==============================================================================
+Frontend: Node.js, React & TypeScript
+==============================================================================
+
+Dependencies
+
+node_modules/
+jspm_packages/
+
+Production Build Directories
+
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+
+TypeScript & Cache
+
+*.tsbuildinfo
+.tscache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.turbo/
+
+Package Manager Logs & Lock Override
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+==============================================================================
+Docker & Containers
+==============================================================================
+
+Local persistent volumes and temporary docker data
+
+.docker/
+*.docker.log
+
+==============================================================================
+Kubernetes & Infrastructure
+==============================================================================
+
+Helm and K8s Local Caches, Outputs & Secrets
+
+.kube/
+*.kubeconfig
+helm-charts/tmp/
+charts/*/charts/
+charts/*.tgz
+*.lock
